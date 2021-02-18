@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="main">
+            <div class="container">
+                <button  onclick="start()" class="btn1">Iniciar</button>
+                <button onclick="pause()" class="btn2">Pausar</button>
+                <button  onclick="stop()" class="btn3">Parar</button>
+                <h1 id="counter">00:00:00</h1>
+            </div>
+
+            <div class="currentHour">
+                <h1 id="currentHour"></h1>
+            </div>
+
+            <div class="currentDate">
+                <p id="dating"></p>
+            </div>
+            
+        </div>
+
+    <script src="cron.js"></script>
+</body>
+</html>
